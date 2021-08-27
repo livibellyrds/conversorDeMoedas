@@ -1,0 +1,28 @@
+- iniciar um projeto
+    *yarn init ( cria o package.json com informações do projeto)
+
+- definir as bibliotecas (library) do projeto
+    *yarn add nodemon express axios dotenv (instalar as bibliotecas )
+      nodemon (monitora as atividades do projeto e sobe automaticamente a cada atualização)
+      express (framework de aplicação web/ cria APIs)
+      axios   (faz requesição de uma API)
+      dotenv  (trabalha com variáveis de ambiente)
+- inicializa o git 
+    *git init(inicializar o git do projeto)
+- criar o arquivo gitignore
+      (ignora todos os arquivos que não vão para o repositorio)
+- criar o arquivo dotenv
+      (configurar as variáveis de ambiente)
+- criar a estrutura do projeto
+      pasta onde fica os código fonte.
+      exemplos:
+      *   src (estruturar os código)
+      *   public(para o frontend)
+      *   routes( onde vai mapear o caminho da API, chamando o serviço )
+      *   service(onde constroi funções com regra de negocios.
+              Pode ser API, function,requisição de banco de dados)
+      *   index.js(inicializa o servidor e disponibiliza a aplicação)
+
+
+
+
